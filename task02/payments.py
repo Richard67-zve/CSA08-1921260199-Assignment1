@@ -12,7 +12,7 @@ def total_float(items):
 def total_decimal(items):
     total = Decimal("0")
     for amount in items:
-        total += Decimal(float(amount))
+        total += Decimal(amount)
     return total
 
 print("float :", total_float(payments))
